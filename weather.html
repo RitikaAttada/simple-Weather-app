@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-sale=1.0">
+        <meta charset="UTF-8">
+        <title>weather app</title>
+        <link rel="stylesheet" href="weather.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="weather_box">
+                <div class="weather_icon" id="weather_icn">
+                    <img class="image" style="height:400px;" id="weather_image" src="images/overcast.jpg">
+                </div>
+                <div class="weather_info" id="weather_result" style="opacity:0;"></div>
+            </div>
+            <div class="search_box">
+                <input type="text-box" id="location_input" placeholder="location" class="search_area">
+                <button class="search_button" id="search_btn">Search</button>
+            </div>
+        </div>
+        <script src="weather.js"></script>
+    </body>
+</html>
