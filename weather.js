@@ -1,4 +1,4 @@
-const apiKey = "3e6e6ba005164f98837105559251802";
+const apiKey = 
 const search_btn = document.getElementById("search_btn");
 const location_input = document.getElementById("location_input");
 const weather_result = document.getElementById("weather_result");
@@ -27,7 +27,7 @@ location_input.addEventListener("keydown", (e)=>{
 
 async function fetchWeather(location)
 {
-    const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}`;
+    const url = 
     try{
     const response = await fetch(url);
     const data = await response.json();
